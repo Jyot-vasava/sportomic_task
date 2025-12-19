@@ -1,4 +1,3 @@
-// src/Routes/sportRoutes.js
 import express from "express";
 import {
   getAllSports,
@@ -6,7 +5,7 @@ import {
   createSport,
   updateSport,
   deleteSport,
-} from "../Controllers/sportController.js";
+} from "../controllers/sportcontroller";
 
 const router = express.Router();
 

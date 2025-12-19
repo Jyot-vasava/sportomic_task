@@ -1,4 +1,3 @@
-// src/Routes/memberRoutes.js
 import express from "express";
 import {
   getAllMembers,
@@ -6,7 +5,7 @@ import {
   createMember,
   updateMember,
   deleteMember,
-} from "../Controllers/memberController.js";
+} from "../controllers/membercontroller";
 
 const router = express.Router();
 

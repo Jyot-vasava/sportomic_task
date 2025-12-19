@@ -1,4 +1,3 @@
-// src/Routes/transactionRoutes.js
 import express from "express";
 import {
   getAllTransactions,
@@ -6,7 +5,7 @@ import {
   createTransaction,
   updateTransaction,
   deleteTransaction,
-} from "../Controllers/transactionController.js";
+} from "../controllers/tramsactoioncontroller"; // Fix typo in filename to transactioncontroller.js if possible
 
 const router = express.Router();
 

@@ -1,4 +1,3 @@
-// src/Routes/venueRoutes.js
 import express from "express";
 import {
   getAllVenues,
@@ -6,7 +5,7 @@ import {
   createVenue,
   updateVenue,
   deleteVenue,
-} from "../Controllers/venueController.js";
+} from "../controllers/venuecontroller";
 
 const router = express.Router();
 
