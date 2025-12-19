@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN || "*", // Adjust for production
+    origin: process.env.CORS_ORIGIN || "*", 
   })
 );
 

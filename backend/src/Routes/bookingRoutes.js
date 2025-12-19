@@ -5,8 +5,7 @@ import {
   createBooking,
   updateBooking,
   deleteBooking,
-} from "../controllers/bookingcontroller"; // Note: filename has typo 'tramsactoioncontroller.js' but code is fine
-
+} from "../controllers/bookingcontroller";
 const router = express.Router();
 
 router.get("/", getAllBookings);

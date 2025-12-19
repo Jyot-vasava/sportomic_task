@@ -5,8 +5,7 @@ import {
   createTransaction,
   updateTransaction,
   deleteTransaction,
-} from "../controllers/tramsactoioncontroller"; // Fix typo in filename to transactioncontroller.js if possible
-
+} from "../controllers/tramsactoioncontroller"; 
 const router = express.Router();
 
 router.get("/", getAllTransactions);
